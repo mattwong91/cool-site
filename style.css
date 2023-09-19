@@ -1,0 +1,102 @@
+/* SECTION Element selectors */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+  margin: 50px;
+  justify-content: center;
+  height: 60vh;
+
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #061130;
+  margin: 0;
+}
+
+nav {
+  color: #ffffff;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+nav>p {
+  margin: 0 10px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer-text>p {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+
+}
+
+/* SECTION Class selectors */
+
+.title-text {
+  color: #fafd61
+}
+
+.header-text {
+  color: #ffffff;
+}
+
+.desc-text {
+  color: #ffffff;
+}
+
+.site-links {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.footer-text {
+  justify-content: center;
+  background-color: #e1e1e1;
+}
+
+.hero-textbox {
+  max-width: 20%;
+  margin-right: 2.5vw;
+}
+
+.nav-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+
+/* SECTION Id selectors */
+
+#chat_button {
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #1c4bc4;
+  border: 0px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#logo_image {
+  margin-left: 20px;
+}
